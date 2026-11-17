@@ -1,0 +1,24 @@
+artifact_path: file:C:/Users/Kamal kaanth S/OneDrive/Pictures/Documents/MLOPS/mlruns/1/models/m-515e0912963f44d3a62c5c4bdfe284f7/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.18.0
+model_id: m-515e0912963f44d3a62c5c4bdfe284f7
+model_size_bytes: 3434594
+model_uuid: m-515e0912963f44d3a62c5c4bdfe284f7
+prompts: null
+run_id: 3a5c1897281d4dc79f151b2f8d71b3a3
+utc_time_created: '2026-11-17 08:53:44.974574'
